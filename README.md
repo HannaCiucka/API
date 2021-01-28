@@ -1,4 +1,4 @@
-#Product Service:
+## Product Service:
 
 
 ### Getting list of all the products 
@@ -11,7 +11,7 @@
 
 - '200 OK' on success
 
-'''json
+
 [
     {
         "id": 1,
@@ -26,7 +26,7 @@
     }
 
 ]
-'''
+
 
 ### Post a new product 
 
@@ -44,14 +44,14 @@
 
 - '201 Created' on success
 
-'''json
+
 {
     "id": 1,
     "product_type": "hoodie",
     "product_name": "skull1"
 
 }
-'''
+
 
 ### Look for product details 
 
@@ -64,13 +64,13 @@
 - '404 Not found'
 - '200 OK'
 
-'''json
+
 {
     "id": 1,
     "product_type": "hoodie",
     "product_name": "skull1"
 }
-'''
+
 
 ### Delete product
 
