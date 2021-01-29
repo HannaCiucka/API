@@ -12,19 +12,16 @@
 - '200 OK' on success
 
 
-[
-    {
+[   {   
         "id": 1,
         "product_type": "hoodie",
-        "product_name": "skull1"
-
+        "product_name": "skull1"    
     },
     {
         "id": 2,
         "product_type": "t-shirt",
         "product_name": "portrait"
     }
-
 ]
 
 
