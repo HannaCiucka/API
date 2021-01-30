@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  products:
+    build: .
+    volumes: 
+    - .:/usr/src/app
